@@ -2,6 +2,14 @@ name: Rust CI/Unit Tests
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - "**/Cargo.toml"
+      - "**/Cargo.lock"
+      - "**/src/**"
+      - "**/fuzz/**"
+      - "**/tests/**"
   pull_request:
   workflow_dispatch:
 

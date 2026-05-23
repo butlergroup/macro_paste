@@ -5,6 +5,14 @@ permissions:
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - "**/Cargo.toml"
+      - "**/Cargo.lock"
+      - "**/src/**"
+      - "**/fuzz/**"
+      - "**/tests/**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
