@@ -10,7 +10,7 @@ concurrency:
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "**/Cargo.toml"
       - "**/Cargo.lock"
