@@ -1,6 +1,6 @@
 <!--  Thanks for sending a pull request!  Here are some tips for you:
 
-1. If this is your first time, please read our contributor guidelines: https://github.com/butlergroup/macro_paste/blob/main/CONTRIBUTING.md
+1. If this is your first time, please read our contributor guidelines: https://github.com/butlergroup/macro_paste/blob/master/CONTRIBUTING.md
 2. Please ensure you've tested your code on as many OS platforms and architectures as you can before submitting your pull request for review, especially if this is a release targeted pull request.
 -->
 

@@ -55,7 +55,7 @@ Commit and push your changes to your branch once you are happy with them :zap:.
 
 ### Pull Request
 
-Please reference and adhere to our [pull request template](https://github.com/butlergroup/macro_paste/blob/main/.github/PULL_REQUEST_TEMPLATE.md) when filing your pull request.
+Please reference and adhere to our [pull request template](https://github.com/butlergroup/macro_paste/blob/master/.github/PULL_REQUEST_TEMPLATE.md) when filing your pull request.
 
 Once you've **thoroughly tested and debugged your changes**, create a pull request (sometimes referred to on Github as a PR) in this repo. Describe to the reviewers what changes you've made as well as the purpose of your pull request.
 
