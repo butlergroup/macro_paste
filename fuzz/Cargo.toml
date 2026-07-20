@@ -9,7 +9,7 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = "0.4.13"
-syn = { version = "2.0.118", features = ["full"] }
+syn = { version = "3.0.1", features = ["full"] }
 
 [dependencies.macro_paste]
 path = ".."
