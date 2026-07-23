@@ -178,4 +178,4 @@ be dual licensed as above, without any additional terms or conditions.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=butlergroup/macro_paste&type=Date)](https://www.star-history.com/#butlergroup/macro_paste&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=butlergroup/macro_paste&type=date&legend=top-left&sealed_token=Cfh-tC0M8aFxFCXQi09XXJSk_Gtht8OsT1aIXNO0qxwyG7kGIqKGS9YrCYVoaN3W0lSMf1PAzwF_oWAjN0mGlycjUJ9McTxvRRElPYpytcD07ZwuL-qCrQ)](https://www.star-history.com/?type=date&repos=butlergroup%2Fmacro_paste)

@@ -25,8 +25,8 @@ protocol_feature_macro_paste = []
 protocol_feature_paste = ["protocol_feature_macro_paste"]
 
 [dependencies]
-rustversion = "1.0.22"
-trybuild = { version = "1.0.117", features = ["diff"] }
+rustversion = "1.0.23"
+trybuild = { version = "1.0.118", features = ["diff"] }
 
 [dev-dependencies]
 paste-test-suite = { path = "tests/macros" }
