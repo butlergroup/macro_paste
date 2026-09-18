@@ -13,13 +13,12 @@ name: OSV-Scanner
 
 on:
   pull_request:
-    branches: ["master"]
   merge_group:
-    branches: ["master"]
+    branches: ["main"]
   schedule:
-    - cron: "44 7 * * *"
+    - cron: "13 20 * * *"
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -44,7 +43,6 @@ jobs:
       # Example of specifying custom arguments
       scan-args: |-
         -r
-        --skip-git
         ./
   scan-pr:
     permissions:
@@ -53,11 +51,10 @@ jobs:
       # Read commit contents
       contents: read
       actions: read
-    if: ${{ github.event_name == 'pull_request' || github.event_name =='merge_group' }}
-    uses: "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@a345acffa64b0eaede81a3d9aae6141214d9c8fc" # v2.6.0
+    if: ${{ github.event_name == 'pull_request' || github.event_name == 'merge_group' }}
+    uses: "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@a345acffa64b0eaede81a3d9aae6141214d9c8fc" # v2.6.0
     with:
       # Example of specifying custom arguments
       scan-args: |-
         -r
-        --skip-git
         ./
