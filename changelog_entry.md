@@ -1,4 +1,4 @@
-## macro_paste Version 1.1.24 (10-15-2026)
+## macro_paste Version 1.1.25 (10-16-2026)
 
 #### New Features
 
